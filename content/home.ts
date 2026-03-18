@@ -36,7 +36,7 @@ export const homeContent = {
   },
 };
 
-// Legacy compatibility for landing page sections
+// Top-level named export for Next.js module static analysis compatibility
 export function getHomeContent() {
   return homeContent;
 }
