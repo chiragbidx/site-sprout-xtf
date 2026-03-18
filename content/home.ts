@@ -35,3 +35,8 @@ export const homeContent = {
     button: "Get Started Free",
   },
 };
+
+// Legacy compatibility for landing page sections
+export function getHomeContent() {
+  return homeContent;
+}
